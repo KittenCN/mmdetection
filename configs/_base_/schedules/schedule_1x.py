@@ -8,6 +8,6 @@ lr_config = dict(
     warmup='linear',
     warmup_iters=500,
     warmup_ratio=0.001 * opti_rate,
-    step=[996, 999]
+    step=[9996, 9999]
     )
-runner = dict(type='EpochBasedRunner', max_epochs=1000)
+runner = dict(type='EpochBasedRunner', max_epochs=10000)
